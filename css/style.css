@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background: #fff url(../img/fundo.png) repeat-x;
+}
+#container{
+    margin: 0 auto;
+    width: 720px;
+}
+#header{
+    border: 1px solid red;
+    height: 150px;
+    padding: 25px;
+    background: url(../img/detalhe-topo.png) no-repeat right top;
+}
+.logo{
+    width: 152px;
+    height: 66px;
+    background: url(../img/logo.png) no-repeat center;
+    text-indent: -3000px;
+}
+#nav{
+    width: 530px;
+    height: 40px;
+    background: #b10333;
+    position: relative;
+    top: 30px;
+}
+#nav a{
+    background: url(../img/divisor.png) repeat-y left;
+    text-decoration: none;
+    font-size: 0.9em;
+    color: #fff;
+    line-height: 40px;
+    padding: 10px;
+}
+#nav a:hover{
+    background: red;
+}
+#nav ul li{
+    float: left;
+ul{
+    margin: 0;
+    padding: 0;
+}
