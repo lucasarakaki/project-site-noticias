@@ -7,12 +7,13 @@ body{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background: #fff url(../img/fundo.png) repeat-x;
 }
+/*Inicio container*/
 #container{
     margin: 0 auto;
-    width: 720px;
+    width: 750px;
 }
+/*Inicio header e nav*/
 #header{
-    border: 1px solid red;
     height: 150px;
     padding: 25px;
     background: url(../img/detalhe-topo.png) no-repeat right top;
@@ -24,7 +25,7 @@ body{
     text-indent: -3000px;
 }
 #nav{
-    width: 530px;
+    width: 550px;
     height: 40px;
     background: #b10333;
     position: relative;
@@ -34,16 +35,60 @@ body{
     background: url(../img/divisor.png) repeat-y left;
     text-decoration: none;
     font-size: 0.9em;
+    font-weight: 400;
     color: #fff;
     line-height: 40px;
-    padding: 10px;
+    padding: 10px 15px;
 }
 #nav a:hover{
-    background: red;
+    color: #69001d;
+    background: #de003e;
 }
 #nav ul li{
     float: left;
+}
 ul{
     margin: 0;
     padding: 0;
+}
+/*Marcando página*/
+.home #nav ul li a#home{
+    color: #fff;
+    background: #de003e;
+}
+/*Iniciando a aside e section´s*/
+#content{
+    margin-top: 60px;
+    background: #f5f5f5;
+}
+#aside{
+    border: 1px solid red;
+    width: 180px;
+    float: left;
+    margin: 0 15px 20px -750px;
+}
+#section-one{
+    border: 1px solid red;
+    width: 270px;
+    float: left;
+    margin: 0 0 20px 195px;
+}
+#section-two{
+    border: 1px solid red;
+    width: 270px;
+    float: left;
+    margin: 0px 0px 20px 11px;
+}
+.title{
+    background: #294c71;
+    font-size: 1.2em;
+    color: #fff;
+    text-indent: 0.2em;
+}
+/*Iniciando o footer*/
+footer{
+    clear: both;
+    background: #294c71;
+    padding: 20px;
+    text-align: center;
 }
