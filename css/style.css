@@ -25,7 +25,7 @@ body{
     text-indent: -3000px;
 }
 #nav{
-    width: 550px;
+    width: 545px;
     height: 40px;
     background: #b10333;
     position: relative;
@@ -38,7 +38,7 @@ body{
     font-weight: 400;
     color: #fff;
     line-height: 40px;
-    padding: 10px 15px;
+    padding: 10px 14px;
 }
 #nav a:hover{
     color: #69001d;
@@ -62,7 +62,6 @@ ul{
     background: #f5f5f5;
 }
 #aside{
-    border: 1px solid red;
     width: 180px;
     float: left;
     margin: 0 15px 20px -750px;
@@ -86,11 +85,37 @@ ul{
     float: left;
     margin: 0px 0px 20px 11px;
 }
+/*Formantando caixa de conteudo da aside e section*/
+.caixa{
+    margin: 10px 0;
+    padding: 5px;
+    background: url(../img/fundo-caixa.png);
+}
+.content{
+    background: #fff;
+    padding: 5px;
+    margin-top: 5px;
+}
+/*Formatando links da aside*/ 
+ul.aside-menu a{
+    border-bottom: 1px dotted #ccc;
+    display: block;
+    padding: 15px 0;
+    text-indent: 10px;
+    color: #000;
+    text-decoration: none;
+}
+ul.aside-menu a:hover{
+    text-indent: 30px;
+    background: url(../img/marcador.png) no-repeat left center;
+}
+/*Formatação dos titulos das caixas "h2"*/
 .title{
     background: #294c71;
     font-size: 1.2em;
     color: #fff;
-    text-indent: 0.2em;
+    text-indent: 0.5em;
+    margin: 10px;
 }
 /*Iniciando o footer*/
 footer{
