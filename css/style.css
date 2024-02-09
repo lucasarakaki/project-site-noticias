@@ -73,6 +73,13 @@ ul{
     float: left;
     margin: 0 0 20px 195px;
 }
+#duas-col #section-one{
+    width: 555px;
+}
+#uma-col #section-one{
+    width: 750px;
+    margin: 0 0 20px 15px;
+}
 #section-two{
     border: 1px solid red;
     width: 270px;
