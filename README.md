@@ -1,5 +1,3 @@
-# project-site-noticias
-
 # Site de Notícias
 - Este repositório contém o código-fonte para um site de notícias simples desenvolvido usando HTML e CSS. O site é projetado para exibir notícias em diferentes categorias, como atualidades, esportes, entretenimento, etc.
 
