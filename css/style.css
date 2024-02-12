@@ -67,7 +67,6 @@ ul{
     margin: 0 15px 20px -750px;
 }
 #section-one{
-    border: 1px solid red;
     width: 270px;
     float: left;
     margin: 0 0 20px 195px;
@@ -80,7 +79,6 @@ ul{
     margin: 0 0 20px 15px;
 }
 #section-two{
-    border: 1px solid red;
     width: 270px;
     float: left;
     margin: 0px 0px 20px 11px;
@@ -110,7 +108,7 @@ ul.aside-menu a:hover{
     background: url(../img/marcador.png) no-repeat left center;
 }
 /*Formatação dos titulos das caixas "h2"*/
-.title{
+h2{
     background: #294c71;
     font-size: 1.2em;
     color: #fff;
@@ -135,6 +133,32 @@ input[type=submit]{
     background: #b10333;
     color: #fff;
     border: none;
+}
+/*Formatação IMG Principal das sections*/
+img.principal{
+    width: 98%;
+    border: 2px solid #dfdfdf;
+}
+/*Formatação do conteúdo da section 1 e 2*/
+section h3{
+    text-transform: uppercase;
+    display: inline;
+    font-size: 0.8em;
+    padding: 3px;
+    color: #fff;
+    background: #b10333;
+}
+section a{
+    color: #b10333;
+}
+/*Formatação h3 da section 2*/
+.entrevista h3{
+    text-transform: uppercase;
+    display: inline;
+    font-size: 0.8em;
+    padding: 3px;
+    color: #000;
+    background: #b10333;
 }
 /*Iniciando o footer*/
 footer{
