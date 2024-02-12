@@ -52,9 +52,11 @@ ul{
     padding: 0;
 }
 /*Marcando página*/
-.home #nav ul li a#home{
+.home #nav ul li a#home,
+.brasil #nav ul li a#brasil,
+.fotos #nav ul li a#fotos{
     color: #fff;
-    background: #de003e;
+    background: #eb7798;
 }
 /*Iniciando a aside e section´s*/
 #content{
